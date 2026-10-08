@@ -1,0 +1,25 @@
+# Java build output
+/bin/
+/out/
+/target/
+/build/
+*.class
+*.log
+
+# IDE settings
+/.idea/
+/.vscode/
+/.settings/
+/.classpath
+/.project
+*.iml
+
+# Local environment and operating system files
+.env
+.env.*
+!.env.example
+Thumbs.db
+.DS_Store
+
+# Generated receipts
+/src/bills/*.txt
